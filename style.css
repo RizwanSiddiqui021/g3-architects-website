@@ -96,7 +96,7 @@
 
 .team-gallery-section{
     max-width: 1440px;
-    margin: 80px auto;
+    margin: 100px auto;
     display: flex;  
     justify-content: space-around;
     align-items: center;
@@ -215,6 +215,65 @@
     border-radius: 8px;
     border-right: 5px solid rgba(255, 144, 14, 1);
     border-bottom: 5px solid rgba(255, 144, 14, 1);
+}
+
+/* facts-section styles */
+
+.facts-section{
+    max-width: 1440px;
+    margin: 100px auto;
+}
+
+.facts-text{
+    text-align: center;
+}
+
+.facts-text>h2{
+    color: rgba(19, 19, 19, 1);
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.facts-text>p{
+    color: rgba(114, 114, 114, 1);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.number{
+    color: rgba(66, 66, 66, 1);
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.name{
+    color: rgba(114, 114, 114, 1);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 /* responsive styles for small devices */
