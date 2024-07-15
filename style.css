@@ -92,6 +92,50 @@
     width: 100%;
 }
 
+/* team-gallery-section styles */
+
+.team-gallery-section{
+    max-width: 1440px;
+    margin: 80px auto;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;  
+}
+
+.team-texts{
+    max-width: 535px;
+}
+
+.team-texts>h3{
+    color: rgba(19, 19, 19, 1);
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 24px 0px;
+}
+
+#quick-list{
+    color: rgba(114, 114, 114, 1);
+    font-weight: 500;
+}
+
+#features{
+    color: rgba(255, 144, 14, 1);
+    font-weight: 700;
+}
+
+.team-texts-discription{
+    color: rgba(114, 114, 114, 1);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;   
+}
+
 /* responsive styles for small devices */
 
 @media screen and (max-width: 576px) {
