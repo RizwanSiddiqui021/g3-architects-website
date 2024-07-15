@@ -336,6 +336,11 @@
         width: 100%;
         margin: 0px auto;
     }
+
+    .facts-container{
+        grid-template-columns: repeat(1, auto);
+        gap: 40px;
+    }
 }
 
 /* responsive styles for medium devices */
