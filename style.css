@@ -246,6 +246,37 @@
     .team-texts{
         text-align: center;
     }
+
+    .features-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .features-title{
+        text-align: center;
+        padding: 20px;
+        border: 5px solid rgba(255, 144, 14, 1);
+        border-radius: 8px;
+    }
+
+    .features-discription{
+        padding: 10px;
+    }
+
+    .features-card{
+        text-align: center;
+    }
+
+    .features-image>img{
+        width: calc( 100% - 10px);
+        border: 5px solid rgba(255, 144, 14, 1);
+        border-radius: 8px;
+    }
+
+    .badge-button{
+        width: 100%;
+        margin: 0px auto;
+    }
 }
 
 /* responsive styles for medium devices */
@@ -261,5 +292,22 @@
 
     .team-texts{
         text-align: center;
+    }
+
+    .features-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .features-image>img{
+        width: calc( 100% - 5px);
+        border-right: 5px solid rgba(255, 144, 14, 1);
+        border-bottom: 5px solid rgba(255, 144, 14, 1);
+        border-radius: 8px;
+    }
+    
+    .badge-button{
+        width: 100%;
+        margin: 0px auto;
     }
 }
